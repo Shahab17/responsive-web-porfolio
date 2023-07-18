@@ -250,16 +250,29 @@ footer{
 }
 /* mobile devices */
 @media screen and (max-width: 576px) {
+    header{
+        background-image: none;
+    }
+    nav, nav > ul,
     .skills-container, .resume-container,.about-info-container, footer{
         flex-direction: column;
         padding: 30px;
          
     }
-    #whatido-para{
+    nav > ul{
+        gap: 20px;
+    }
+    .banner .profile{
+        width: 100%;
+    }
+    #whatido-para, .banner{
         padding: 20px;
     }
     footer, .about{
         padding: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
     }
     .footer-col{
         width: 100%;
