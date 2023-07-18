@@ -1,8 +1,6 @@
 /* common shared styles */
 
-*{
-    margin: 0;
-}
+ 
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -130,6 +128,7 @@ main section{
 .about-info-container{
     display: flex;
     justify-content: space-around;
+   
      
 }
 .about-info{
@@ -251,11 +250,32 @@ footer{
 }
 /* mobile devices */
 @media screen and (max-width: 576px) {
-    .skills-container{
+    .skills-container, .resume-container,.about-info-container, footer{
         flex-direction: column;
+        padding: 30px;
+         
     }
     #whatido-para{
         padding: 20px;
+    }
+    footer, .about{
+        padding: 20px;
+    }
+    .footer-col{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea{
+        width: 80%;
+    }
+}
+
+/* medium devices */
+@media screen and (min-width:576px) and (max-width: 992px) {
+    footer{
+        padding: 40px;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea{
+        width: 80%;
     }
 }
  
