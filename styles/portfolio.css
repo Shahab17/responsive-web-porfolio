@@ -259,17 +259,30 @@ footer{
         padding: 30px;
          
     }
+    .profile{
+        display: none;
+    }
+     
+    .about{
+        margin: 20px;
+    }
     nav > ul{
         gap: 20px;
     }
-    .banner .profile{
-        width: 100%;
+    nav{
+        margin: 50px;
+        align-items: center;
     }
+    
     #whatido-para, .banner{
         padding: 20px;
     }
     footer, .about{
         padding: 20px;
+    }
+    .hire{
+        font-size: 16px;
+        padding: 8px 13px;
     }
     .btn-primary{
         margin-bottom: 20px;
@@ -289,6 +302,25 @@ footer{
     }
     .contact input[type="text"], .contact input[type="email"], textarea{
         width: 80%;
+    }
+    nav{
+        margin: 0 40px;
+    }
+    .hire{
+        font-size: 16px;
+        padding: 8px 13px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .banner{
+        justify-content: flex-end;
+    }
+    .about-info-container{
+        display: block;
+    }
+    .skills-container{
+     flex-wrap: wrap;
     }
 }
  
